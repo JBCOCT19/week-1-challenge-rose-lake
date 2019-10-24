@@ -103,7 +103,7 @@ public class JavaWeek1Challenge {
                         }
                     } // end prime-checking loop
 
-                    // if we have gotten this far and the flag is still true, no number could divide userInt, it is Prime.
+                    // if we have gotten this far and the flag is still true, no number could divide randomInt, it is Prime.
                     if (isPrime) {
                         System.out.println(randomInt + " is prime!");
                     }
@@ -113,7 +113,6 @@ public class JavaWeek1Challenge {
             } else {
                 System.out.println("That was not a valid choice.");
             }
-
 
             /* **********************************************************
              *  ask user if they want to play again
