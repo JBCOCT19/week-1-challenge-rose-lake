@@ -86,5 +86,6 @@ introduction:
 
 process:
 	run the exact same code as for PART 1 process, except replace all instances of NUMBER with randomNum.
+	also, you do not need to check if randomInt > 1, so you pick up the code from inside of there, starting at if == 2.
 
 after this code is written, we will move the "clean-up" section here.
