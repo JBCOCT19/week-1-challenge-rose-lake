@@ -20,5 +20,3 @@ After part 1, in the next part generate a random number between 1 and 250 (you c
 
 As with part 1, you will print the number and print whether it is a prime number. 
 
-
-## Pseudo-Code
