@@ -1,0 +1,38 @@
+# Week 1 Challenge Pseudo-Code
+
+## PART 1
+
+the introduction:
+	1a. welcome the user to the program
+	1b. ask the user for input greater than 1
+	1c. take in the user input into an INTEGER type
+	1d. clear the keyboard for next use (the end of line).
+
+the process:
+	IF: Check that the user entered a number greater than `1`.
+		IF: First, check if the user entered TWO. This is a special case. If yes, print it is prime.
+		ELSE: Do the actual checking for a prime number here:
+			
+			LOOP: COUNTER starts at 2. COUNTER goes up to NUMBER/2. COUNTER increments by 1.
+				IF: check if NUMBER % COUNTER equals ZERO. 
+					if so, number is not prime.
+					print out message.
+					set boolean flag IS_PRIME to false.
+					BREAK out of LOOP.
+					we are done and do not neet to do any more checking, because we now know that NUMBER is not prime.
+				ENDIF.
+				we do not have an else, because we are only looping and checking until we find out that the number is not prime. once we know that, we set a flag and continue on.
+			LOOPEND.
+			IF: check boolean flag IS_PRIME is still true.
+				This means that the number was actually Prime.
+				PRINT OUT prime number response.
+			ENDIF.
+			
+	
+	ELSE: (user did not enter number > 1) 
+		print a message: you didn't enter a valid input.
+	ENDIF.
+	
+clean-up:
+	Thank the user for playing.
+	Close our keyboard resource.
