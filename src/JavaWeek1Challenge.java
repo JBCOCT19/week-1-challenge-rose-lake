@@ -51,10 +51,10 @@ public class JavaWeek1Challenge {
 
                 if (userInt > 1) {  // validate input
 
-                    if (userInt == 2) { // TWO is a SPECIAL CASE!
+                    if (userInt == 2) {   // TWO is a SPECIAL CASE!
                         System.out.println(userInt + " is prime!");
                     }
-                    else { // userInt > 2; CHECK IF PRIME
+                    else {   // userInt > 2; CHECK IF PRIME
 
                         isPrime = true;   // set flag to true -- our loop will check for false condition
 
@@ -84,14 +84,15 @@ public class JavaWeek1Challenge {
                  *           PART 2
                  * ****************************/
                 // greet the user
-                System.out.println("The program will now generate a random number between " + start + " and " + end + " and check if it is prime.");
+                System.out.println("The program is generating a random number between " + start + " and " + end + "...");
 
                 // generate a random number in RANGE
                 randomInt = randomGenerator.nextInt((end - start) + 1) + start;
 
-                if (randomInt == 2) { // TWO is a SPECIAL CASE!
+                if (randomInt == 2) {   // TWO is a SPECIAL CASE!
                     System.out.println(randomInt + " is prime!");
-                } else { // userInt > 2; CHECK IF PRIME
+                }
+                else {   // userInt > 2; CHECK IF PRIME
 
                     isPrime = true;   // set flag to true -- our loop will check for false condition
 
